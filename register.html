@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="">
+  		<meta name="keywords" content="">
+  		<meta name="author" content="Thomas Sartini">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="./Assets/boostrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./Assets/css/style.css" rel="stylesheet">
+
+        <style>
+            body{
+                background-image: url('./Assets/images/loginBackground.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: top center;               
+            }
+        </style>
+
+        <title>Register</title>
+    </head>
+    <body>
+        <div class="container blur-background register-box card" >
+            <form>
+                <div class="row">
+                    <div class="col login-title">
+                        <h1 class="text-center">Sign up</h1>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Username" name="username" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="vorname">Nome</label>
+                        <input type="text" class="form-control" id="vorname" placeholder="Nome" name="vorname" required>
+                    </div>
+                    <div class="col">
+                        <label for="lastname">Cognome</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Cognome" name="lastname" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="col">
+                        <label for="telephone">Numero di Telefono</label>
+                        <input type="text" class="form-control" id="telephone" placeholder="Numero di Telefono" name="telephone" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="street">Via</label>
+                        <input type="text" class="form-control" id="street" placeholder="Via" name="street" required>
+                    </div>
+                    <div class="col">
+                        <label for="cap">CAP</label>
+                        <input type="number" class="form-control" id="cap" placeholder="CAP" name="cap" required>
+                    </div>
+                    <div class="col">
+                        <label for="city">Città</label>
+                        <input type="text" class="form-control" id="city" placeholder="Città" name="city" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="iban">IBAN</label>
+                        <input type="text" class="form-control" id="iban" placeholder="IBAN" name="iban" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="col">
+                        <label for="confirmPass">Conferma Password</label>
+                        <input type="password" class="form-control" id="confirmPass" placeholder="Conferma Password" name="confirmPass" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="instrument">Strumento</label>
+                        <select class="form-control" id="instrument" name="instrument" required>
+                            <option selected>Selziona uno strumento</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col text-center">
+                        <a href="login.html" class="link-primary">Hai già un account? Accedi!</a>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col text-center">
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer class=" text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-4 footer">
+                © 2023 Copyright:
+                <a class="text-light" href="https://www.cpttrevano.ti.ch/">CPTTrevano.ti.ch</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="./Assets/boostrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
+

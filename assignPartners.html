@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="">
+  		<meta name="keywords" content="">
+  		<meta name="author" content="Thomas Sartini">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="./Assets/boostrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./Assets/css/style.css" rel="stylesheet">
+
+        <title>Assign Partners</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row flex-nowrap" >
+                <div class="col-1 bg-black text-xl-center text-white p-0 min-vh-100 h5 m-0 sidebar">
+                    <img src="Assets/images/violin.svg" class="img-fluid instrument-icon">
+                    <ul class="navbar-nav normal-responsive">
+                        <li><a href="calendar.html">Calendario</a></li>
+                        <li><a href="reports.html">Resoconti</a></li>
+                        <li><a href="assignPartners.html">Assegna <br> Soci</a></li>
+                        <li><a href="profile.html" class="li-last">Profilo</a></li>
+                        <li class="li-bottom"><a href="login.html">Logout</a></li>
+                    </ul>
+                    <ul class="navbar-nav small-responsive">
+                        <li><a href="calendar.html">C</a></li>
+                        <li><a href="reports.html">R</a></li>
+                        <li><a href="assignPartners.html">A</a></li>
+                        <li><a href="profile.html" class="li-last">P</a></li>
+                        <li class="li-bottom"><a href="login.html">L</a></li>
+                    </ul>
+                </div>
+
+                <!-- content-->
+                <div class="col">
+                    <div class="container" style="margin-top: 6%" >
+                        <form action="" method="get" id="myForm">
+                            <div class="row mb-5 pb-5">
+                                <div class="col">
+                                    <h1 class="title-page">Assegnazione soci</h1>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-5">
+                                    <h5>Selezionare il periodo: </h5>
+                                </div>
+                                <div class="col-3">
+                                    <select class="form-control fit-content" name="month1">
+                                        <option selected>Gennaio</option>
+                                        <option>Febbraio</option>
+                                        <option>Marzo</option>
+                                        <option>Aprile</option>
+                                        <option>Maggio</option>
+                                        <option>Giugno</option>
+                                        <option>Luglio</option>
+                                        <option>Agosto</option>
+                                        <option>Settembre</option>
+                                        <option>Ottobre</option>
+                                        <option>Novembre</option>
+                                        <option>Dicembre</option>
+                                    </select>
+                                    <br>
+                                    <select class="form-control fit-content small-responsive " name="month2">
+                                        <option selected>Gennaio</option>
+                                        <option>Febbraio</option>
+                                        <option>Marzo</option>
+                                        <option>Aprile</option>
+                                        <option>Maggio</option>
+                                        <option>Giugno</option>
+                                        <option>Luglio</option>
+                                        <option>Agosto</option>
+                                        <option>Settembre</option>
+                                        <option>Ottobre</option>
+                                        <option>Novembre</option>
+                                        <option>Dicembre</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <select class="form-control fit-content normal-responsive" name="month2">
+                                        <option selected>Gennaio</option>
+                                        <option>Febbraio</option>
+                                        <option>Marzo</option>
+                                        <option>Aprile</option>
+                                        <option>Maggio</option>
+                                        <option>Giugno</option>
+                                        <option>Luglio</option>
+                                        <option>Agosto</option>
+                                        <option>Settembre</option>
+                                        <option>Ottobre</option>
+                                        <option>Novembre</option>
+                                        <option>Dicembre</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-5 ">
+                                    Seleziona Socio:
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Cerca Socio..." name="Partner">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                Socio 1
+                                            </div>
+                                            <div class="col">
+                                                <button name="submit" class="hidden-submit" type="submit" value="1">x</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-7">
+                                                Socio 2
+                                            </div>
+                                            <div class="col">
+                                                <button name="submit" class="hidden-submit" type="submit" value="2">x</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col">
+                                    <select class="form-select w-100" multiple>
+                                        <option>Seleziona Socio</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>    
+                    </div>
+                </div>
+            </div>
+
+           </div>
+        </div>
+
+
+
+
+        <!--<footer class=" text-center text-lg-start">
+            <div class="text-center p-4 footer">
+                © 2023 Copyright:
+                <a class="text-light" href="https://www.cpttrevano.ti.ch/">CPTTrevano.ti.ch</a>
+            </div>
+            
+          </footer>-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="./Assets/boostrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
